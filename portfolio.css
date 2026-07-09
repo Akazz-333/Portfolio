@@ -85,7 +85,9 @@ img{ display:block; max-width:100%; }
 .sidebar{
   position:fixed; top:0; left:0; bottom:var(--statusbar-h);
   width:var(--sidebar-w);
-  background:var(--panel);
+  background: color-mix(in srgb, var(--panel) 72%, transparent);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border-right:1px solid var(--line);
   display:flex; flex-direction:column;
   z-index:40;
