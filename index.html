@@ -264,14 +264,14 @@
             <h2 class="sec-title">PROJECTS</h2>
           </div>
 
-          <div class="proj-card reveal" tabindex="0" role="button" aria-label="Open Smart Tax AI project details" data-repo="https://github.com/Akazz-333/Smart-Tax-AI">
+          <div class="proj-card reveal" tabindex="0" role="button" aria-label="Open Smart Tax AI project webpage" data-repo="https://github.com/Akazz-333/Smart-Tax-AI" data-live="https://github.com/Akazz-333/Smart-Tax-AI">
             <div class="proj-top">
               <div class="proj-name">Smart Tax AI — GST Invoice Processing &amp; Compliance</div>
               <div class="proj-meta-right">
                 <span class="proj-date">Jan 2026 — Present</span>
-                <a href="https://github.com/Akazz-333/Smart-Tax-AI" target="_blank" rel="noopener noreferrer" class="proj-link-btn" onclick="event.stopPropagation();">
+                <a href="https://github.com/Akazz-333/Smart-Tax-AI" target="_blank" rel="noopener noreferrer" class="proj-link-btn live-btn" onclick="event.stopPropagation();" style="background:var(--amber-soft); border-color:rgba(232,150,62,0.4); color:var(--amber);">
                   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
-                  <span>View Code</span>
+                  <span>Open Project ↗</span>
                 </a>
               </div>
             </div>
@@ -284,7 +284,7 @@
               <li>Designed rule-validation logic to enforce tax accuracy and regulatory compliance.</li>
             </ul>
             <div class="proj-card-footer">
-              <span class="proj-click-hint">Click card for project details &amp; demo ➔</span>
+              <span class="proj-click-hint">Click card to open project webpage 🌐 ➔</span>
             </div>
           </div>
 
@@ -1951,9 +1951,9 @@
 
       function handleCardClick(card, e) {
         if (e && e.target.closest('.proj-link-btn')) return;
-        const liveUrl = card.getAttribute('data-live');
-        if (liveUrl) {
-          window.open(liveUrl, '_blank');
+        const targetUrl = card.getAttribute('data-live') || card.getAttribute('data-repo');
+        if (targetUrl) {
+          window.open(targetUrl, '_blank');
         }
         openProjectModal(card);
       }
