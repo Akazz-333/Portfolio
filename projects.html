@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Featured Projects — Akash S B</title>
+<meta name="description" content="Explore full-stack software applications built by Akash S B using Spring Boot, Java, React, MySQL, AI OCR, and WebSockets.">
+<meta name="theme-color" content="#07090e">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64'%3E%3Crect width='64' height='64' rx='14' fill='%2338bdf8'/%3E%3Ctext x='50%25' y='58%25' font-family='monospace' font-size='34' fill='%2307090e' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Sora:wght@600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<link rel="stylesheet" href="portfolio.css?v=18">
+</head>
+<body>
+
+  <a class="skip-link" href="#projects">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- WebGL Floating Lines Background -->
+  <div class="floating-lines-container" id="floatingLinesContainer" aria-hidden="true"></div>
+  <!-- FLOATING BACK BUTTON -->
+  <a href="index.html" class="back-home-btn" aria-label="Back to Home">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+    <span>Back to Home</span>
+  </a>
+
+  <!-- CENTERED MAIN CONTAINER -->
+  <main class="app-wrapper">
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" style="margin-top: 20px;">
+      <div class="sec-head">
+        <span class="sec-tag">PORTFOLIO WORK</span>
+        <h1 class="sec-title">Featured Projects</h1>
+      </div>
+
+      <!-- SPLIT PROJECTS LAYOUT WITH 3D INFINITE SPIRAL -->
+      <div class="projects-split-layout reveal">
+        <!-- LEFT SIDE: 3D INFINITE SPIRAL GALLERY -->
+        <div class="projects-spiral-col">
+          <div id="projectInfiniteSpiralContainer" class="infinite-spiral-mount"></div>
+        </div>
+
+        <!-- RIGHT SIDE: ALL PROJECTS -->
+        <div class="projects-cards-col">
+          <div class="projects-list">
+
+        <!-- Project 1: LIVO - Life OS -->
+        <div class="proj-card reveal" data-repo="https://github.com/Akazz-333/LIVO-Life-OS" data-live="https://github.com/Akazz-333/LIVO-Life-OS" data-image="images/livo_life_os.png">
+          <div class="proj-banner-wrapper">
+            <img src="images/livo_life_os.png" alt="LIVO - Life OS Showcase" class="proj-banner-img" loading="lazy">
+            <div class="proj-banner-overlay"></div>
+          </div>
+          <div class="proj-top">
+            <div class="proj-title">LIVO — Life OS</div>
+            <div class="proj-meta-right">
+              <span class="proj-date">Oct 2026 — Present</span>
+              <a href="https://github.com/Akazz-333/LIVO-Life-OS" target="_blank" rel="noopener noreferrer" class="proj-link-btn view-code-btn" onclick="event.stopPropagation();">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                <span>Source Code</span>
+              </a>
+            </div>
+          </div>
+
+          <p class="proj-intro">All-in-one personal Life OS helping users manage daily tasks, schedule calendars, set &amp; track goals, build habits, and monitor expenses with smart analytics.</p>
+
+          <div class="proj-tags">
+            <span>Spring Boot</span>
+            <span>Java</span>
+            <span>Docker</span>
+            <span>Maven</span>
+            <span>Postman</span>
+            <span>React Native</span>
+            <span>React</span>
+            <span>Life OS</span>
+            <span>Habit Tracker</span>
+            <span>Expense Analytics</span>
+          </div>
+
+          <ul class="proj-details-list">
+            <li>Architected a full-stack personal Life OS using <strong>Spring Boot</strong>, <strong>Java 17</strong>, and <strong>React Native</strong>, featuring priority task dispatching, calendar scheduling, and goal tracking.</li>
+            <li>Implemented <strong>Docker</strong> containerization &amp; <strong>Maven</strong> build automation for microservices, integrated with <strong>Postman</strong> API test suites.</li>
+            <li>Built automated habit tracking with daily streaks, expense logging with category insights, and real-time productivity performance analytics.</li>
+          </ul>
+
+          <div class="proj-card-footer">
+            <span class="proj-click-hint">Click card for project details &amp; architecture highlights ➔</span>
+          </div>
+        </div>
+
+        <!-- Project 2: HRMS Portal -->
+        <div class="proj-card reveal" data-repo="https://github.com/Akazz-333/Kalpanaaa---Employee-Management-Platform" data-live="https://github.com/Akazz-333/Kalpanaaa---Employee-Management-Platform" data-image="images/hrms_portal.jpg">
+          <div class="proj-banner-wrapper">
+            <img src="images/hrms_portal.jpg" alt="HRMS Portal Showcase" class="proj-banner-img" loading="lazy">
+            <div class="proj-banner-overlay"></div>
+          </div>
+          <div class="proj-top">
+            <div class="proj-title">HRMS Portal</div>
+            <div class="proj-meta-right">
+              <span class="proj-date">Feb 2026 — Present</span>
+              <a href="https://github.com/Akazz-333/Kalpanaaa---Employee-Management-Platform" target="_blank" rel="noopener noreferrer" class="proj-link-btn view-code-btn" onclick="event.stopPropagation();">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                <span>Source Code</span>
+              </a>
+            </div>
+          </div>
+
+          <p class="proj-intro">Full-stack HR management platform featuring JWT authentication, role-based access control, attendance tracking, and PWA integration.</p>
+
+          <div class="proj-tags">
+            <span>React</span>
+            <span>Employee Management</span>
+            <span>PWA Support</span>
+            <span>Role-Based Auth (RBAC)</span>
+          </div>
+
+          <ul class="proj-details-list">
+            <li>Architected a full-stack HRMS Employee Management platform featuring JWT authentication, role-based access control, and employee attendance tracking.</li>
+            <li>Integrated Progressive Web App (PWA) support, automated Discord webhook alerts, and streamlined employee record management.</li>
+            <li>Built responsive administrator &amp; employee dashboards for task dispatching, payroll tracking, and performance analytics.</li>
+          </ul>
+
+          <div class="proj-card-footer">
+            <span class="proj-click-hint">Click card for project details &amp; architecture highlights ➔</span>
+          </div>
+        </div>
+
+        <!-- Project 2: Grabit Mobile Application -->
+        <div class="proj-card reveal" data-repo="https://github.com/Akazz-333/KSS-GRAB-Mobile-main" data-live="https://github.com/Akazz-333/KSS-GRAB-Mobile-main" data-image="images/grabit_mobile.jpg">
+          <div class="proj-banner-wrapper">
+            <img src="images/grabit_mobile.jpg" alt="Grabit Mobile Application Showcase" class="proj-banner-img" loading="lazy">
+            <div class="proj-banner-overlay"></div>
+          </div>
+          <div class="proj-top">
+            <div class="proj-title">Grabit Mobile Application</div>
+            <div class="proj-meta-right">
+              <span class="proj-date">Jan 2026 — Present</span>
+              <a href="https://github.com/Akazz-333/KSS-GRAB-Mobile-main" target="_blank" rel="noopener noreferrer" class="proj-link-btn view-code-btn" onclick="event.stopPropagation();">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                <span>Source Code</span>
+              </a>
+            </div>
+          </div>
+
+          <p class="proj-intro">Cross-platform mobile ordering application with seller catalog management, order deduplication algorithms, and delivery dispatch.</p>
+
+          <div class="proj-tags">
+            <span>React Native</span>
+            <span>Mobile App</span>
+            <span>Node.js</span>
+            <span>REST APIs</span>
+          </div>
+
+          <ul class="proj-details-list">
+            <li>Developed a cross-platform mobile application for customer on-demand ordering, seller catalog management, and delivery dispatch.</li>
+            <li>Engineered order status workflows with item resolution, order deduplication algorithms, and instant transaction callbacks.</li>
+            <li>Built decoupled backend microservices connecting mobile seller portals to real-time customer tracking interfaces.</li>
+          </ul>
+
+          <div class="proj-card-footer">
+            <span class="proj-click-hint">Click card for project details &amp; architecture highlights ➔</span>
+          </div>
+        </div>
+
+        <!-- Project 3: Mandhi Restaurent -->
+        <div class="proj-card reveal" data-repo="https://github.com/Akazz-333/Mandhi-Restaurent" data-live="https://akazz-333.github.io/Mandhi-Restaurent/frontend/" data-image="images/mandhi_restaurant.jpg">
+          <div class="proj-banner-wrapper">
+            <img src="images/mandhi_restaurant.jpg" alt="Mandhi Restaurent Showcase" class="proj-banner-img" loading="lazy">
+            <div class="proj-banner-overlay"></div>
+          </div>
+          <div class="proj-top">
+            <div class="proj-title">Mandhi Restaurent</div>
+            <div class="proj-meta-right">
+              <span class="proj-date">Full-Stack Application</span>
+              <a href="https://akazz-333.github.io/Mandhi-Restaurent/frontend/" target="_blank" rel="noopener noreferrer" class="proj-link-btn live-btn" onclick="event.stopPropagation();">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+                <span>Live Website ↗</span>
+              </a>
+              <a href="https://github.com/Akazz-333/Mandhi-Restaurent" target="_blank" rel="noopener noreferrer" class="proj-link-btn view-code-btn" onclick="event.stopPropagation();">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                <span>Source Code</span>
+              </a>
+            </div>
+          </div>
+
+          <p class="proj-intro">Full-stack food ordering platform designed for premium dining with real-time kitchen updates via Spring WebSockets and MySQL.</p>
+
+          <div class="proj-tags">
+            <span>Java 17</span>
+            <span>Spring Boot</span>
+            <span>MySQL</span>
+            <span>WebSockets</span>
+          </div>
+
+          <ul class="proj-details-list">
+            <li>Developed a full-stack online food ordering web application designed for a premium dining and Mandhi house experience.</li>
+            <li>Enabled real-time order status updates between kitchen and dining staff via WebSockets and Spring Boot REST services.</li>
+            <li>Designed normalized relational MySQL database schemas with Spring Data JPA across Orders, Table Bookings, and Customer Reviews.</li>
+          </ul>
+
+          <div class="proj-card-footer">
+            <span class="proj-click-hint">Click card for project details &amp; architecture highlights ➔</span>
+          </div>
+        </div>
+
+        <!-- Project 4: Smart Tax AI -->
+        <div class="proj-card reveal" data-repo="https://github.com/Akazz-333/Smart-Tax-AI" data-live="https://akazz-333.github.io/Smart-Tax-AI/frontend/index.html" data-image="images/smart_tax_ai.jpg">
+          <div class="proj-banner-wrapper">
+            <img src="images/smart_tax_ai.jpg" alt="Smart Tax AI Showcase" class="proj-banner-img" loading="lazy">
+            <div class="proj-banner-overlay"></div>
+          </div>
+          <div class="proj-top">
+            <div class="proj-title">Smart Tax AI — GST Invoice Processing</div>
+            <div class="proj-meta-right">
+              <span class="proj-date">Jan 2026 — Present</span>
+              <a href="https://akazz-333.github.io/Smart-Tax-AI/frontend/index.html" target="_blank" rel="noopener noreferrer" class="proj-link-btn live-btn" onclick="event.stopPropagation();">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+                <span>Live Website ↗</span>
+              </a>
+              <a href="https://github.com/Akazz-333/Smart-Tax-AI" target="_blank" rel="noopener noreferrer" class="proj-link-btn view-code-btn" onclick="event.stopPropagation();">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                <span>Source Code</span>
+              </a>
+            </div>
+          </div>
+
+          <p class="proj-intro">AI-driven GST invoice processing and compliance verification engine powered by OCR extraction, NLP, and tax rule validation.</p>
+
+          <div class="proj-tags">
+            <span>AI / ML</span>
+            <span>OCR Extraction</span>
+            <span>Python</span>
+            <span>Tax Compliance</span>
+          </div>
+
+          <ul class="proj-details-list">
+            <li>Automated GST invoice processing and compliance verification end-to-end using computer vision and machine learning.</li>
+            <li>Built OCR-based extraction for GSTIN numbers, HSN codes, itemized tax rates, and total calculations.</li>
+            <li>Designed strict rule-validation logic to enforce tax accuracy and legal regulatory compliance.</li>
+          </ul>
+
+          <div class="proj-card-footer">
+            <span class="proj-click-hint">Click card for project details &amp; architecture highlights ➔</span>
+          </div>
+        </div>
+
+        <!-- Project 5: Aura Luxe -->
+        <div class="proj-card reveal" data-repo="https://github.com/Akazz-333/E-commerce-website" data-live="https://akazz-333.github.io/E-commerce-website/frontend/index.html" data-image="images/aura_luxe.jpg">
+          <div class="proj-banner-wrapper">
+            <img src="images/aura_luxe.jpg" alt="Aura Luxe Showcase" class="proj-banner-img" loading="lazy">
+            <div class="proj-banner-overlay"></div>
+          </div>
+          <div class="proj-top">
+            <div class="proj-title">Aura Luxe — Luxury E-Commerce</div>
+            <div class="proj-meta-right">
+              <span class="proj-date">Jan 2026 — Present</span>
+              <a href="https://akazz-333.github.io/E-commerce-website/frontend/index.html" target="_blank" rel="noopener noreferrer" class="proj-link-btn live-btn" onclick="event.stopPropagation();">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+                <span>Live Website ↗</span>
+              </a>
+              <a href="https://github.com/Akazz-333/E-commerce-website" target="_blank" rel="noopener noreferrer" class="proj-link-btn view-code-btn" onclick="event.stopPropagation();">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                <span>Source Code</span>
+              </a>
+            </div>
+          </div>
+
+          <p class="proj-intro">Luxury e-commerce application featuring a custom glassmorphism design system, 35+ product catalog, and multi-currency converter.</p>
+
+          <div class="proj-tags">
+            <span>JavaScript (ES6+)</span>
+            <span>Glassmorphism</span>
+            <span>Multi-Currency</span>
+            <span>Cart Engine</span>
+          </div>
+
+          <ul class="proj-details-list">
+            <li>Engineered a state-of-the-art luxury e-commerce web application featuring a custom glassmorphism design system and dynamic light/dark theme toggle.</li>
+            <li>Integrated a 35+ product local catalog with real-time multi-currency engine supporting INR (₹), USD ($), EUR (€), and GBP (£).</li>
+            <li>Built dedicated product detail views with multi-photo gallery zoom, variant swatches, instant checkout wizard, and interactive cart drawer.</li>
+          </ul>
+
+          <div class="proj-card-footer">
+            <span class="proj-click-hint">Click card for project details &amp; architecture highlights ➔</span>
+          </div>
+        </div>
+
+        <!-- Project 6: Restaurant Management -->
+        <div class="proj-card reveal" data-repo="https://github.com/Akazz-333/Mandhi-Restaurent" data-live="https://akazz-333.github.io/Mandhi-Restaurent/frontend/" data-image="images/restromanage.jpg">
+          <div class="proj-banner-wrapper">
+            <img src="images/restromanage.jpg" alt="Restaurant Management System Showcase" class="proj-banner-img" loading="lazy">
+            <div class="proj-banner-overlay"></div>
+          </div>
+          <div class="proj-top">
+            <div class="proj-title">Restaurant Management System</div>
+            <div class="proj-meta-right">
+              <span class="proj-date">Full-Stack Application</span>
+              <a href="https://akazz-333.github.io/Mandhi-Restaurent/frontend/" target="_blank" rel="noopener noreferrer" class="proj-link-btn live-btn" onclick="event.stopPropagation();">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+                <span>Live Website ↗</span>
+              </a>
+              <a href="https://github.com/Akazz-333/Mandhi-Restaurent" target="_blank" rel="noopener noreferrer" class="proj-link-btn view-code-btn" onclick="event.stopPropagation();">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                <span>Source Code</span>
+              </a>
+            </div>
+          </div>
+
+          <p class="proj-intro">Enterprise restaurant management system featuring automated table allocation, inventory management, and Spring WebSocket sync.</p>
+
+          <div class="proj-tags">
+            <span>Java 17</span>
+            <span>Spring Boot 3.3</span>
+            <span>MySQL</span>
+            <span>WebSockets</span>
+          </div>
+
+          <ul class="proj-details-list">
+            <li>Developed an enterprise restaurant management and table reservation system for daily operations.</li>
+            <li>Enabled real-time order status notifications and kitchen dispatch workflow via Spring WebSockets.</li>
+            <li>Designed relational database schemas with JPA Hibernate mapping for high-throughput order transaction logs.</li>
+          </ul>
+
+          <div class="proj-card-footer">
+            <span class="proj-click-hint">Click card for project details &amp; architecture highlights ➔</span>
+          </div>
+        </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Project Modal -->
+  <div class="proj-modal-overlay" id="projectModal" onclick="if(event.target===this)closeProjectModal();">
+    <div class="proj-modal-card">
+      <div class="proj-modal-header">
+        <h3 id="projModalTitle">Project Architecture Breakdown</h3>
+        <button class="proj-modal-close" onclick="closeProjectModal();">&times;</button>
+      </div>
+      <div class="proj-modal-body">
+        <div id="projModalBanner" style="display:none; margin-bottom: 16px;">
+          <img id="projModalImg" src="" alt="Project Banner Showcase" style="width:100%; height:200px; object-fit:cover; border-radius:10px; border:1px solid var(--border);">
+        </div>
+        <div class="proj-modal-tags" id="projModalTags"></div>
+        <p id="projModalDesc" style="color:var(--text-sub); line-height:1.7; margin-bottom:16px;"></p>
+        <ul id="projModalHighlights" style="color:var(--muted); line-height:1.7; padding-left:20px;"></ul>
+      </div>
+      <div class="proj-modal-footer">
+        <a href="#" target="_blank" rel="noopener noreferrer" id="projModalGithubBtn" class="proj-link-btn view-code-btn">View Repository ↗</a>
+        <a href="#" target="_blank" rel="noopener noreferrer" id="projModalLiveBtn" class="proj-link-btn live-btn">Live Site ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Floating background shader
+    const initFloatingLines = () => {
+      const container = document.getElementById('floatingLinesContainer');
+      if (!container || typeof THREE === 'undefined') return;
+
+      const scene = new THREE.Scene();
+      const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0, 1);
+      const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+      renderer.setSize(container.clientWidth || window.innerWidth, container.clientHeight || window.innerHeight);
+      container.appendChild(renderer.domElement);
+
+      const fragmentShader = `
+        uniform float iTime;
+        uniform vec3 iResolution;
+        uniform vec3 lineGradient[3];
+        varying vec2 vUv;
+
+        void main() {
+          vec2 uv = (gl_FragCoord.xy - 0.5 * iResolution.xy) / iResolution.y;
+          float time = iTime * 0.25;
+          
+          float wave1 = sin(uv.x * 3.5 + time) * 0.15;
+          float wave2 = cos(uv.x * 5.0 - time * 1.2) * 0.1;
+          float dist = abs(uv.y - wave1 - wave2);
+
+          float alpha = smoothstep(0.12, 0.0, dist) * 0.45;
+          vec3 col = mix(lineGradient[0], lineGradient[1], sin(uv.x + time) * 0.5 + 0.5);
+          col = mix(col, lineGradient[2], cos(uv.y + time) * 0.5 + 0.5);
+
+          gl_FragColor = vec4(col, alpha);
+        }
+      `;
+
+      const vertexShader = `
+        varying vec2 vUv;
+        void main() {
+          vUv = uv;
+          gl_Position = vec4(position, 1.0);
+        }
+      `;
+
+      const uniforms = {
+        iTime: { value: 0 },
+        iResolution: { value: new THREE.Vector3(window.innerWidth, window.innerHeight, 1) },
+        lineGradient: {
+          value: [
+            new THREE.Vector3(0.22, 0.74, 0.97),
+            new THREE.Vector3(0.38, 0.40, 0.94),
+            new THREE.Vector3(0.06, 0.72, 0.50)
+          ]
+        }
+      };
+
+      window.floatingLinesUniforms = uniforms;
+
+      const geometry = new THREE.PlaneGeometry(2, 2);
+      const material = new THREE.ShaderMaterial({
+        vertexShader,
+        fragmentShader,
+        uniforms,
+        transparent: true
+      });
+
+      const mesh = new THREE.Mesh(geometry, material);
+      scene.add(mesh);
+
+      const clock = new THREE.Clock();
+      const animate = () => {
+        uniforms.iTime.value = clock.getElapsedTime();
+        renderer.render(scene, camera);
+        requestAnimationFrame(animate);
+      };
+      animate();
+    };
+    initFloatingLines();
+
+    // Theme Switcher Engine
+    const themeToggleBtn = document.getElementById('themeToggleBtn');
+    const themeBtnText = document.getElementById('themeBtnText');
+
+    window.setPortfolioTheme = function(theme) {
+      const isSpider = theme === 'spider';
+      if (isSpider) {
+        document.body.classList.add('theme-spider');
+        if (themeBtnText) themeBtnText.textContent = 'Arachnid Gold 🕷️';
+        localStorage.setItem('portfolio-theme', 'spider');
+        if (window.floatingLinesUniforms) {
+          const grads = window.floatingLinesUniforms.lineGradient.value;
+          grads[0].set(0.75, 0.62, 0.40);
+          grads[1].set(0.55, 0.42, 0.22);
+          grads[2].set(0.85, 0.74, 0.55);
+        }
+      } else {
+        document.body.classList.remove('theme-spider');
+        if (themeBtnText) themeBtnText.textContent = 'Cyber Cyan 🔵';
+        localStorage.setItem('portfolio-theme', 'cyber');
+        if (window.floatingLinesUniforms) {
+          const grads = window.floatingLinesUniforms.lineGradient.value;
+          grads[0].set(0.22, 0.74, 0.97);
+          grads[1].set(0.38, 0.40, 0.94);
+          grads[2].set(0.06, 0.72, 0.50);
+        }
+      }
+    };
+
+    const savedTheme = localStorage.getItem('portfolio-theme') || 'cyber';
+    window.setPortfolioTheme(savedTheme);
+
+    if (themeToggleBtn) {
+      themeToggleBtn.addEventListener('click', () => {
+        const isCurrentlySpider = document.body.classList.contains('theme-spider');
+        window.setPortfolioTheme(isCurrentlySpider ? 'cyber' : 'spider');
+      });
+    }
+
+    // Modal Handlers
+    window.closeProjectModal = function() {
+      const modal = document.getElementById('projectModal');
+      if (modal) modal.classList.remove('active');
+    };
+
+    window.openProjectModal = function(card) {
+      const modal = document.getElementById('projectModal');
+      if (!modal) return;
+
+      const title = card.querySelector('.proj-title').textContent;
+      const tags = card.querySelectorAll('.proj-tags span');
+      const list = card.querySelectorAll('.proj-details-list li, .proj-list li');
+      const repo = card.getAttribute('data-repo');
+      const live = card.getAttribute('data-live');
+      const imgSrc = card.getAttribute('data-image');
+      const introEl = card.querySelector('.proj-intro');
+      const introText = introEl ? introEl.textContent : `Engineering breakdown and technical architecture details for ${title}.`;
+
+      document.getElementById('projModalTitle').textContent = title;
+      document.getElementById('projModalGithubBtn').setAttribute('href', repo || '#');
+      document.getElementById('projModalLiveBtn').setAttribute('href', live || '#');
+
+      const bannerContainer = document.getElementById('projModalBanner');
+      const modalImg = document.getElementById('projModalImg');
+      if (bannerContainer && modalImg) {
+        if (imgSrc) {
+          modalImg.setAttribute('src', imgSrc);
+          bannerContainer.style.display = 'block';
+        } else {
+          bannerContainer.style.display = 'none';
+        }
+      }
+
+      const tagsContainer = document.getElementById('projModalTags');
+      tagsContainer.innerHTML = '';
+      tags.forEach(t => {
+        const span = document.createElement('span');
+        span.textContent = t.textContent;
+        tagsContainer.appendChild(span);
+      });
+
+      document.getElementById('projModalDesc').textContent = introText;
+
+      const listContainer = document.getElementById('projModalHighlights');
+      listContainer.innerHTML = '';
+      list.forEach(li => {
+        const item = document.createElement('li');
+        item.textContent = li.textContent;
+        listContainer.appendChild(item);
+      });
+
+      modal.classList.add('active');
+    };
+
+    document.querySelectorAll('.proj-card').forEach(card => {
+      card.addEventListener('click', (e) => {
+        if (e.target.closest('.proj-link-btn')) return;
+        window.openProjectModal(card);
+      });
+    });
+
+    // Auto reveal animations
+    document.querySelectorAll('.reveal').forEach(el => el.classList.add('in'));
+  </script>
+
+  <!-- REACT BITS 3D CAROUSEL ENGINE -->
+  <script src="carousel.js?v=1"></script>
+  <!-- REACT BITS 3D INFINITE SPIRAL ENGINE -->
+  <script src="infinitespiral.js?v=1"></script>
+  <!-- SPIDER ENGINE -->
+  <script src="spider.js?v=12"></script>
+</body>
+</html>

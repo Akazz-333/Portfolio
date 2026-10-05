@@ -34,3 +34,7 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 .DS_Store
+
+# IDE & Editor files
+.vscode/
+node_modules/
